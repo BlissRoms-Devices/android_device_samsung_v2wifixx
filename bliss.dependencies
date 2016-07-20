@@ -1,32 +1,37 @@
 [
     {
-        "remote": "github",
+        "remote": "cm",
         "repository": "android_external_stlport",
         "target_path": "external/stlport"
     },
     {
-        "remote": "github",
+        "remote": "cm",
         "repository": "android_hardware_samsung",
         "target_path": "hardware/samsung"
     },
     {
-        "remote": "github",
+        "remote": "cm",
         "repository": "android_hardware_samsung_slsi-cm_exynos",
         "target_path": "hardware/samsung_slsi-cm/exynos"
     },
     {
-        "remote": "github",
+        "remote": "cm",
         "repository": "android_hardware_samsung_slsi-cm_exynos5",
         "target_path": "hardware/samsung_slsi-cm/exynos5"
     },
     {
-        "remote": "github",
+        "remote": "cm",
         "repository": "android_hardware_samsung_slsi-cm_exynos5420",
         "target_path": "hardware/samsung_slsi-cm/exynos5420"
     },
     {
-        "remote": "github",
+        "remote": "cm",
         "repository": "android_hardware_samsung_slsi-cm_openmax",
         "target_path": "hardware/samsung_slsi-cm/openmax"
-    }
+    },
+	{
+		"remote": "github",
+		"repository": "nerdyblonde/android_vendor_samsung_v2wifixx",
+        "target_path": "vendor/samsung/v2wifixx"
+	}
 ]

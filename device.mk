@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/v1awifi
+LOCAL_PATH := device/samsung/v2wifixx
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 PRODUCT_CHARACTERISTICS := tablet
-DEVICE_PACKAGE_OVERLAYS += device/samsung/v1awifi/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/v2wifixx/overlay
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -208,4 +208,4 @@ $(call inherit-product, hardware/samsung_slsi-cm/exynos5/exynos5.mk)
 $(call inherit-product, hardware/samsung_slsi-cm/exynos5420/exynos5420.mk)
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/samsung/v1awifi/v1awifi-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/v2wifixx/v2wifixx-vendor.mk)

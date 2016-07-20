@@ -15,12 +15,12 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Inherit from v1awifi device
-$(call inherit-product, device/samsung/v1awifi/device.mk)
+# Inherit from v2wifixx device
+$(call inherit-product, device/samsung/v2wifixx/device.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := full_v1awifi
-PRODUCT_DEVICE := v1awifi
+PRODUCT_NAME := full_v2wifixx
+PRODUCT_DEVICE := v2wifixx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SM-P900
+PRODUCT_MODEL := SM-T900

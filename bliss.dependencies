@@ -2,36 +2,43 @@
     {
         "remote": "cm",
         "repository": "android_external_stlport",
-        "target_path": "external/stlport"
+        "target_path": "external/stlport",
+        "revision": "cm-13.0"
     },
     {
         "remote": "cm",
         "repository": "android_hardware_samsung",
-        "target_path": "hardware/samsung"
+        "target_path": "hardware/samsung",
+        "revision": "cm-13.0"
     },
     {
         "remote": "cm",
         "repository": "android_hardware_samsung_slsi-cm_exynos",
-        "target_path": "hardware/samsung_slsi-cm/exynos"
+        "target_path": "hardware/samsung_slsi-cm/exynos",
+        "revision": "cm-13.0"
     },
     {
         "remote": "cm",
         "repository": "android_hardware_samsung_slsi-cm_exynos5",
-        "target_path": "hardware/samsung_slsi-cm/exynos5"
+        "target_path": "hardware/samsung_slsi-cm/exynos5",
+        "revision": "cm-13.0"
     },
     {
         "remote": "cm",
         "repository": "android_hardware_samsung_slsi-cm_exynos5420",
-        "target_path": "hardware/samsung_slsi-cm/exynos5420"
+        "target_path": "hardware/samsung_slsi-cm/exynos5420",
+        "revision": "cm-13.0"
     },
     {
         "remote": "cm",
         "repository": "android_hardware_samsung_slsi-cm_openmax",
-        "target_path": "hardware/samsung_slsi-cm/openmax"
+        "target_path": "hardware/samsung_slsi-cm/openmax",
+        "revision": "cm-13.0"
     },
-	{
-		"remote": "github",
-		"repository": "nerdyblonde/android_vendor_samsung_v2wifixx",
-        "target_path": "vendor/samsung/v2wifixx"
-	}
+    {
+    	"remote": "github",
+    	"repository": "nerdyblonde/android_vendor_samsung_v2wifixx",
+    	"target_path": "vendor/samsung/v2wifixx",
+    	"revision": "cm13"
+    }
 ]

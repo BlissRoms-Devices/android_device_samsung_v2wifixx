@@ -171,5 +171,17 @@ BOARD_HOSTAPD_PRIVATE_LIB        := lib_driver_cmd_bcmdhd
 WIFI_DRIVER_FW_PATH_PARAM        := "/sys/module/dhd/parameters/firmware_path"
 WIFI_DRIVER_FW_PATH_STA          := "/system/etc/wifi/bcmdhd_sta.bin"
 
+# Bliss Building Options
+BLISS_BUILD_BLOCK := 1
+BLISSIFY := true
+BLISS_O3 := true
+BLISS_GRAPHITE := true
+BLISS_STRICT := false
+BLISS_KRAIT := false
+TARGET_TC_ROM := 4.9-linaro
+TARGET_TC_KERNEL := 4.9-linaro
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
+
 # inherit from the proprietary version
 -include vendor/samsung/v2wifixx/BoardConfigVendor.mk

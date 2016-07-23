@@ -24,8 +24,8 @@
         "revision": "cm-13.0"
     },
     {
-        "remote": "cm",
-        "repository": "android_hardware_samsung_slsi-cm_exynos5420",
+        "remote": "github",
+        "repository": "CM-Tab-S/android_hardware_samsung_slsi-cm_exynos5420",
         "target_path": "hardware/samsung_slsi-cm/exynos5420",
         "revision": "cm-13.0"
     },
